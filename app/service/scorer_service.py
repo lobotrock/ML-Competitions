@@ -14,7 +14,7 @@ class ScorerService:
                  database=None):
 
         if prediction_scorer is None:
-            from app import PredictionScorerImpl
+            from di import PredictionScorerImpl
             self._prediction_scorer = PredictionScorerImpl()
         else:
             self._prediction_scorer = prediction_scorer

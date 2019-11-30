@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File
 
-from app import scorer_service
+from di import scorer_service
 from models import SubmissionResponse
 
 

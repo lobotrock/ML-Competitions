@@ -10,7 +10,7 @@ class UserService:
                  database=None):
 
         if security_service is None:
-            from app import security_service
+            from di import security_service
             self._security_service = security_service
         else:
             self._security_service = security_service
