@@ -3,7 +3,7 @@ cffi==1.13.2
 Click==7.0
 cryptography==2.8
 databases==0.2.6
-fastapi==0.44.0
+fastapi==0.65.2
 h11==0.8.1
 httptools==0.0.13
 numpy==1.17.4
