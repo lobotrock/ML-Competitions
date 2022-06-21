@@ -6,7 +6,7 @@ databases==0.2.6
 fastapi==0.44.0
 h11==0.8.1
 httptools==0.0.13
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 pycparser==2.19
 pydantic==1.2
